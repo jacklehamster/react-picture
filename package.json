@@ -2,7 +2,7 @@
   "name": "@dobuki/react-picture",
   "module": "src/index.tsx",
   "description": "Simple reusable picture component in react.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "bun",
     "bunjs",

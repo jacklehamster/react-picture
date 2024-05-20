@@ -15,6 +15,6 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0",
-    "@dobuki/react-picture": "link:react-picture"
+    "@dobuki/react-picture": "link:@dobuki/react-picture"
   }
 }

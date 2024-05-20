@@ -1,4 +1,3 @@
-import { useMemo } from "react";
 import { Image, ImageModel } from "./model/ImageModel"
 import React from "react";
 
@@ -7,7 +6,7 @@ interface Props {
 }
 
 export function Images({ images }: Props) {
-  const imgs = useMemo(() => Array.isArray(images) ? images : [images], [images]);
+  const imgs = Array.isArray(images) ? images : [images];
   return <>{imgs.map((image, index) => {
     const imgModel: ImageModel = typeof(image) === "string" ? { src: image } : image;
     return <div key={index} style={{
